@@ -70,7 +70,7 @@ const MessageInput = () => {
       )}
 
       <form onSubmit={handleSendMessage} className="flex items-center gap-2">
-        <div className="flex-1 flex gap-2">
+        <div className="flex-1 items-center flex gap-2">
           <input
             type="text"
             className="w-full input input-bordered rounded-lg input-sm sm:input-md"
